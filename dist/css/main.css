@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Syne+Tactile&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+}
+
+ul li {
+  display: inline-block;
+  list-style: none;
+  color: white;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.italic {
+  font-family: "Syne Tactile", cursive;
+  color: crimson;
+}
+
+#header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 10vh;
+  background: black;
+}
+
+#header .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+}
+
+#header .header h1 {
+  font-size: 2rem;
+}
+
+#header .header ul li {
+  margin: 0 25px;
+  text-transform: uppercase;
+}
+
+#header .header ul li a {
+  -webkit-transition: 0.3s ease border-bottom;
+  transition: 0.3s ease border-bottom;
+}
+
+#header .header ul li a:hover {
+  border-bottom: 3px solid whitesmoke;
+}
+
+#hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80vh;
+  background: -webkit-gradient(linear, left bottom, left top, from(#9a8478), to(#1e130c));
+  background: linear-gradient(to top, #9a8478, #1e130c);
+}
+
+#hero .hero {
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#hero .hero img {
+  height: 400px;
+  width: 300px;
+  border-radius: 5px;
+  margin-right: 50px;
+  -webkit-transition: 0.3s ease box-shadow;
+  transition: 0.3s ease box-shadow;
+}
+
+#hero .hero img:hover {
+  box-shadow: 0px 0px 50px 5px rgba(255, 255, 255, 0.3);
+  -webkit-box-shadow: 0px 0px 50px 5px rgba(255, 255, 255, 0.5);
+  -moz-box-shadow: 0px 0px 50px 5px rgba(255, 255, 255, 0.5);
+}
+
+#hero .hero .heroInfo h1 {
+  font-size: 4rem;
+  margin-bottom: 10px;
+}
+
+#hero .hero .heroInfo p {
+  color: white;
+  text-align: justify;
+  line-height: 1.5rem;
+  text-indent: 20px;
+}
+
+#footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 10vh;
+  background: #9a8478;
+}
+
+#footer .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#footer .footer h2 {
+  margin-bottom: 5px;
+}
+
+#footer .footer ul li {
+  margin: 0 10px;
+}
+/*# sourceMappingURL=main.css.map */

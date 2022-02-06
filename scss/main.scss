@@ -1,0 +1,103 @@
+//google fonts
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Syne+Tactile&display=swap");
+
+//partials
+@import "./resets";
+@import "./common";
+
+//header section
+#header {
+  display: flex;
+  height: 10vh;
+  background: black;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    ul li {
+      margin: 0 25px;
+      text-transform: uppercase;
+
+      a {
+        transition: 0.3s ease border-bottom;
+
+        &:hover {
+          border-bottom: 3px solid whitesmoke;
+        }
+      }
+    }
+  }
+}
+//end of header section
+
+//hero section
+#hero {
+  display: flex;
+  height: 80vh;
+  background: linear-gradient(to top, #9a8478, #1e130c);
+
+  .hero {
+    width: 75%;
+    display: flex;
+    align-items: center;
+
+    img {
+      height: 400px;
+      width: 300px;
+      border-radius: 5px;
+      margin-right: 50px;
+      transition: 0.3s ease box-shadow;
+
+      &:hover {
+        box-shadow: 0px 0px 50px 5px rgba(255, 255, 255, 0.3);
+        -webkit-box-shadow: 0px 0px 50px 5px rgba(255, 255, 255, 0.5);
+        -moz-box-shadow: 0px 0px 50px 5px rgba(255, 255, 255, 0.5);
+      }
+    }
+
+    .heroInfo {
+      h1 {
+        font-size: 4rem;
+        margin-bottom: 10px;
+      }
+
+      p {
+        color: white;
+        text-align: justify;
+        line-height: 1.5rem;
+        text-indent: 20px;
+      }
+    }
+  }
+}
+//end of hero section
+
+//footer section
+#footer {
+  display: flex;
+  height: 10vh;
+  background: #9a8478;
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h2 {
+      margin-bottom: 5px;
+    }
+
+    ul li {
+      margin: 0 10px;
+    }
+  }
+}
+//end of footer section
